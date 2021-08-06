@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfólio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="code.js"></script>
+</head>
+
+<body>
+  <div id="menu">
+    <a href="#sobre" class="botao">
+      <img class="icons" src="imagens/person3.png">
+      <span class="menuItens">Resumo</span>
+    </a>
+    <a class="botao">
+      <img class="icons" src="imagens/brackets.png">
+      <span class="menuItens">Skills</span>
+    </a>
+    <a class="botao">
+      <img class="icons" src="imagens/projetos.png">
+      <span class="menuItens">Projetos</span>
+    </a>
+    <a class="botao">
+      <img class="icons" src="imagens/Mail.png">
+      <spa class="menuItens">Contato</spa>
+    </a>
+  </div>
+  <span id="banner">
+    <img id="smile" src="imagens/smile.png">
+    <img id="imgBanner" onclick="colorchange(true)" src="imagens/hi.png">
+    <span id="name" onclick="colorchange(false)"><strong>Olá! Eu sou Daniel.</strong></span>
+  </span>
+  <div class="line"> <img id="lineImg" src="imagens/Co.png"></div>
+  <div id="sobre">
+    <img id="iconSec" src="imagens/person3.png">
+    <span class="SobreTexto"><strong>Resumo</strong></span>
+    <p id="SobreTextoPt" class="SobreTexto">Eu sou um Brasileiro, cursando Sistemas de Informação na faculdade Estácio,
+      com o término
+      previsto para o final
+      de 2022. Comecei aprendendo desenvolvimento web Front-End pois depois de pesquisar foi o caminho que mais me
+      interessou e um dos motivos é porque suporta várias plataformas. Gosto de fazer sites com design instintivo, e
+      responsivo, e estou
+      constantemente aprendendo e testando novas tecnologias e maneiras de melhorar meu código. </p>
+    <p id="SobreTextoEng">I'm a Brazilian, and I study Information Systems at the university, with the graduation
+      foreseen at the end of 2022. I started learning Front-end web development because, after research, it was the path
+      that I most liked, one of the motives is that it supports a lot of platforms. I like doing sites with an
+      instinctive, and responsive design, and I'm constantly learning and testing new technologies and ways of improving
+      my coding skills.</p>
+
+    <button id="EngButton" class="lang" onclick="changelang()">ENG</button>
+    <button id="PtButton" class="lang" onclick="changelangpt()">PT-BR</button>
+  </div>
+  <span id="line2" class="line"> <img id="lineImg" src="imagens/Co.png"></span>
+</body>
+
+</html>
