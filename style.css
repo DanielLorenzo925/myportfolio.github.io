@@ -221,6 +221,28 @@ body {
     top: 10%;
     position: relative;
   }
+  .projetoContainer2 {
+    border: 1px solid rgb(87, 87, 87);
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+    color: black;
+    height: 80px;
+    width: 180px;
+    background-color: rgb(236, 131, 82);
+    left: 25%;
+    bottom: 13px;
+    position: relative;
+  }
+  .iconsp2 {
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+  }
   .iconsp {
     margin-left: 20px;
     margin-right: 10px;
@@ -229,7 +251,10 @@ body {
     height: 40px;
     position: relative;
     top: 5px;
-    left: 25%;
+    left: 20%;
+  }
+  .iconsp :last-child {
+    left: 20%;
   }
   #line4 {
     position: relative;
@@ -480,6 +505,34 @@ body {
     position: relative;
     bottom: 35px;
     left: 25%;
+  }
+  .projetoContainer2 {
+    border: 1px solid rgb(87, 87, 87);
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 20px;
+    color: black;
+    height: 80px;
+    width: 180px;
+    background-color: rgb(236, 131, 82);
+    left: 19%;
+    top: 53px;
+    position: relative;
+  }
+  .iconsp2 {
+    margin-left: 20px;
+    margin-right: 10px;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 55px;
+  }
+  #fox {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 40px;
+    position: relative;
   }
   #iconSec4 {
     margin-left: 30px;
