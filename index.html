@@ -6,6 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="code.js"></script>
+  <!--Smooth Scroll :D-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Add smooth scrolling to all links
+      $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
+
 </head>
 
 <body>
@@ -14,11 +43,11 @@
       <img class="icons" src="imagens/person3.png">
       <span class="menuItens">Resumo</span>
     </a>
-    <a class="botao" href="#skillsTexto">
+    <a class="botao" href="#line2">
       <img class="icons" src="imagens/brackets.png">
       <span class="menuItens">Skills</span>
     </a>
-    <a class="botao">
+    <a class="botao" href="#line3">
       <img class="icons" src="imagens/projetos.png">
       <span class="menuItens">Projetos</span>
     </a>
@@ -82,6 +111,13 @@
       <img class="iconsS" src="imagens/c++.png">
       <span class="skillstxt">C++</span>
     </button>
+  </div>
+  <span id="line3" class="line"> <img id="lineImg" src="imagens/Co.png"></span>
+  <img id="iconSec3" src="imagens/projetos.png">
+  <span id="projetosTexto"><strong>Projetos</strong></span>
+  <div class="projetoContainer">
+    <img href="https://www.belocantochales.com/" class="iconsP" src="imagens/BELO CANTO - LOGO 2.png">
+    <a href="https://www.belocantochales.com/" class="projeto">belocantochales.com</a>
   </div>
 
 </body>
